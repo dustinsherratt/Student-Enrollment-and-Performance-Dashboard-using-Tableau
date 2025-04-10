@@ -13,7 +13,7 @@ This project is a Tableau-based interactive dashboard that visualizes student pe
 
 ## Dataset
 
-The dataset used in this project is the [Student Performance Dataset](https://analyse.kmi.open.ac.uk/open-dataset), which includes the following fields:
+The dataset used in this project is the [Open University Learning Analytics dataset](https://analyse.kmi.open.ac.uk/open-dataset), which includes the following fields:
 
 - `Gender`: The gender of the student.
 - `Race/ethnicity`: Group categorization of the student.
