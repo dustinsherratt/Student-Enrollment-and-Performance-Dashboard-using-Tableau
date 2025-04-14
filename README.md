@@ -2,7 +2,7 @@
 
 ## Overview
 
-This interactive Tableau dashboard provides a comprehensive view of student enrollment and academic performance across various demographic factors. It enables users to analyze average GPA trends by age, module, region, gender, and previous qualification. The dashboard is designed to uncover meaningful insights into how these factors influence student outcomes, supporting data-driven decisions aimed at improving engagement, retention, and overall academic success
+This interactive Tableau dashboard offers a detailed analysis of student enrollment and academic performance across various demographic groups. It allows users to explore enrollment trends alongside average GPA by age, module, region, gender, and previous qualifications. Designed to highlight patterns and disparities in student outcomes, the dashboard supports data-driven strategies aimed at enhancing student engagement, improving retention, and driving academic success.
 ## Features
 
 - **Interactive Filters**: Filter data by gender, parental level of education, test preparation course completion, and more.
