@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project is a Tableau-based interactive dashboard that visualizes student performance data. The dashboard allows users to explore various aspects of student demographics, academic achievements, and performance metrics. The primary goal is to provide insights into factors affecting student performance, such as parental education levels, test preparation courses, and other demographics.
-
+This interactive Tableau dashboard provides a comprehensive view of student enrollment and academic performance across various demographic factors. It enables users to analyze average GPA trends by age, module, region, gender, and previous qualification. The dashboard is designed to uncover meaningful insights into how these factors influence student outcomes, supporting data-driven decisions aimed at improving engagement, retention, and overall academic success
 ## Features
 
 - **Interactive Filters**: Filter data by gender, parental level of education, test preparation course completion, and more.
