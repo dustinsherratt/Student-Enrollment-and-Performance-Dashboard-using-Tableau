@@ -58,30 +58,32 @@ To explore or edit this dashboard locally:
 
 1. Clone or download this repository.
 2. Open the Tableau workbook file: 
-   /workbook/Student Enrollment and Performance Dashboard.twb
+
+   `/workbook/Student Enrollment and Performance Dashboard.twb`
+   
    (or use)
-   /workbook/Student Enrollment and Performance Dashboard.twbx
-3. When prompted, connect to the data source:
-   /data/OULA.xlsx
+   
+   `/workbook/Student Enrollment and Performance Dashboard.twbx`
+   
+4. When prompted, connect to the data source:
+   
+   `/data/OULA.xlsx`
+   
    Ensure the Excel file is in the same path relative to the workbook for a smooth connection.
-4. If you're using the `.twbx` version, the data is already bundled, and no connection setup is needed.
+6. If you're using the `.twbx` version, the data is already bundled, and no connection setup is needed.
 
 > 📌 Note: This project requires **Tableau Desktop** (Public or Professional Edition).
 
 ## 📎 Folder Structure (Recommended)
-/Student-Enrollment-and-Performance-Dashboard-using-Tableau
-│
-├── data/
-│ └── OULA.xlsx
-│
-├── workbook/
-│ └── Student Enrollment and Performance Dashboard.twb
-│ └── Student Enrollment and Performance Dashboard.twbx
-│
-├── assets/
-│ └── Logo.png
-│
-└── README.md
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/data/OULA.xlsx`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/workbook/Student Enrollment and Performance Dashboard.twb`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/workbook/Student Enrollment and Performance Dashboard.twbx`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/assets/Logo.png`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/README.md`
 
 ## 📬 Contact
 
