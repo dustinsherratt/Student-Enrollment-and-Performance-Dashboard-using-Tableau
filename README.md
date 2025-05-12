@@ -43,7 +43,7 @@ The dataset (`OULA.xlsx`) includes the following fields:
 ## 🚀 Dashboard Link
 
 View the full dashboard on Tableau Public:  
-🔗 [Average GPA Dashboard](https://public.tableau.com/app/profile/dustin.sherratt/viz/ExtendedCase2_17442367562910/AverageGPA#1)
+🔗 [Student Enrollment and Performance Dashboard](https://public.tableau.com/app/profile/dustin.sherratt/viz/ExtendedCase2_17442367562910/AverageGPA#1)
 
 ## 🧭 How to Use the Dashboard
 
