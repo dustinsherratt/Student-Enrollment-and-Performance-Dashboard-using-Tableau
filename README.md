@@ -13,7 +13,7 @@ It allows users to interact with filters and visualizations to identify at-risk 
 
 ## 📁 Dataset
 
-- **Source**: A refined subset of the [Open University Learning Analytics Dataset (OULAD)](https://analyse.kmi.open.ac.uk/open-dataset)
+- **Source**: A refined subset of the <a href="https://analyse.kmi.open.ac.uk/open-dataset" target="_blank">Open University Learning Analytics Dataset (OULAD)</a>
 - **Format**: Excel (`.xlsx`)
 - **Modifications**: Cleaned and transformed in Excel to calculate **average GPA per student**, which is not originally present in OULAD.
 
