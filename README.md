@@ -1,63 +1,45 @@
-# Student-Enrollment-and-Performance-Dashboard-using-Tableau
+# Student Enrollment and Performance Dashboard using Tableau
 
-## Overview
+This project presents an **interactive Tableau dashboard** that explores **student enrollment patterns and academic performance** across various demographic groups. Built using a subset of the **Open University Learning Analytics Dataset (OULAD)** and extended with additional metrics via Excel, the dashboard provides educators, administrators, and analysts with valuable insights into how different factors influence student outcomes.
 
-This interactive Tableau dashboard offers a detailed analysis of student enrollment and academic performance across various demographic groups. It allows users to explore enrollment trends alongside average GPA by age, module, region, gender, and previous qualifications. Designed to highlight patterns and disparities in student outcomes, the dashboard supports data-driven strategies aimed at enhancing student engagement, improving retention, and driving academic success.
-## Features
+## 📊 Project Overview
 
-- **Interactive Filters**: Filter data by gender, parental level of education, test preparation course completion, and more.
-- **Highlight Actions**: Highlights related data points to help identify trends and correlations.
-- **Dynamic Visualizations**: Bar charts, pie charts, and scatter plots display various aspects of student performance.
-- **User-Friendly Layout**: Easy-to-navigate design that adapts to different screen sizes.
+The dashboard focuses on:
+- Analyzing **average GPA** by gender, region, and other demographics
+- Tracking **student enrollment trends** across different modules
+- Highlighting potential disparities in academic performance
 
-## Dataset
+It allows users to interact with filters and visualizations to identify at-risk groups, monitor performance patterns, and explore how demographic variables correlate with academic success.
 
-The dataset used in this project is the [Open University Learning Analytics dataset](https://analyse.kmi.open.ac.uk/open-dataset), which includes the following fields:
+## 📁 Dataset
 
-- `Gender`: The gender of the student.
-- `Race/ethnicity`: Group categorization of the student.
-- `Parental level of education`: The highest education level attained by the student's parents.
-- `Lunch`: The type of lunch the student receives (standard or free/reduced).
-- `Test preparation course`: Whether the student completed a test preparation course.
-- `Math score`, `Reading score`, `Writing score`: The scores achieved in each subject.
+- **Source**: A refined subset of the [Open University Learning Analytics Dataset (OULAD)](https://analyse.kmi.open.ac.uk/open_dataset)
+- **Format**: Excel (`.xlsx`)
+- **Modifications**: Cleaned and transformed in Excel to calculate **average GPA per student**, which is not originally present in OULAD.
 
-## Getting Started
+## 🛠 Tools Used
 
-### Prerequisites
+- **Excel** – for data preparation and GPA calculations
+- **Tableau** – for creating the dashboard and visual analysis
 
-- **Tableau Desktop**: Ensure that Tableau is installed on your machine. You can download it from [Tableau's official website](https://www.tableau.com/products/desktop).
+## 🚀 Dashboard Link
 
-### Installation
+View the full dashboard on Tableau Public:  
+🔗 [Average GPA Dashboard](https://public.tableau.com/app/profile/dustin.sherratt/viz/ExtendedCase2_17442367562910/AverageGPA#1)
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/supriyamanda/student-performance-dashboard.git
+## 🧭 How to Use the Dashboard
 
-2. **Open the Tableau Workbook**:
+- Use the **filters on the right** to explore GPA by gender, region, and course code.
+- Hover over charts to view **tooltips** with detailed metrics.
+- Click on bars or segments to **dynamically filter** other views.
+- Reset filters by clicking the **"Reset" or "Clear Selections"** button (if available).
 
-- Open the .twb or .twbx file in Tableau Desktop to view the dashboard.
-  
-3. Load the Dataset:
+## 📌 Key Insights
 
-- Ensure that the dataset is connected properly within Tableau. If needed, re-link the data source to the local copy of the dataset you downloaded.
+> *(You can add these later as you refine your analysis. For now, this section is a placeholder.)*
 
-### Usage
+- Which demographics show higher or lower average GPA?
+- Are there any enrollment trends that correlate with academic performance?
 
-1. **Interact with Filters**:
-- Use the filters on the right side of the dashboard to explore specific groups (e.g., filter by gender or parental education level).
-2. **Hover for Highlights**:
-- Hover over data points in charts to see related information highlighted in other views.
-3. **View Detailed Tooltips**:
-- Tooltips provide additional context when hovering over data points, giving insights into individual scores and demographic details.
+## 📎 Folder Structure (Recommended)
 
-## Enhancements
-
-Future enhancements to the dashboard could include:
-
-- Additional data sources for comparative analysis.
-- Predictive analytics to forecast student performance trends.
-- Enhanced visual aesthetics with custom graphics and themes.
-
-Project Link: https://github.com/supriyamanda/Student-Performance-Dashboard-using-Tableau
-
-Tableau Public : https://public.tableau.com/views/StudentPerformanceDashboard_17256320087470/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
