@@ -1,98 +1,102 @@
-# 🎓 Student Enrollment and Performance Dashboard using Tableau
+# Student Enrollment and Performance Dashboard using Tableau
 
 This project presents an **interactive Tableau dashboard** that explores **student enrollment patterns and academic performance** across various demographic groups. Built using a subset of the **Open University Learning Analytics Dataset (OULAD)** and extended with additional metrics via Excel, the dashboard provides educators, administrators, and analysts with valuable insights into how different factors influence student outcomes.
 
-![Tableau](https://img.shields.io/badge/tool-tableau-blue?logo=tableau)
-![Excel](https://img.shields.io/badge/tool-excel-green?logo=microsoft-excel)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
----
-
 ## 📊 Project Overview
 
-This dashboard focuses on:
+The dashboard focuses on:
 
-- Analyzing **average GPA** by gender, region, and other demographics
-- Tracking **student enrollment trends** across modules
-- Highlighting potential disparities in academic performance
-- Empowering data-driven decisions in education
+* Analyzing **average GPA** by gender, region, and other demographics
+* Tracking **student enrollment trends** across different modules
+* Highlighting potential disparities in academic performance
 
----
+It allows users to interact with filters and visualizations to identify at-risk groups, monitor performance patterns, and explore how demographic variables correlate with academic success.
 
 ## 📁 Dataset
 
-- **Source**: Refined subset of the [Open University Learning Analytics Dataset (OULAD)](https://analyse.kmi.open.ac.uk/open-dataset)
-- **Format**: Excel (`.xlsx`)
-- **Transformations**: Cleaned and enhanced using Excel to calculate **average GPA per student**, a metric not originally included in OULAD.
-
----
+* **Source**: A refined subset of the [Open University Learning Analytics Dataset (OULAD)](https://analyse.kmi.open.ac.uk/open-dataset)
+* **Format**: Excel (`.xlsx`)
+* **Modifications**: Cleaned and transformed in Excel to calculate **average GPA per student**, which is not originally present in OULAD.
 
 ## 🧾 Dataset Fields
 
-| Field Name          | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| `id_student`        | Unique identifier for each student                                          |
-| `gender`            | Gender of the student (`Male`, `Female`)                                   |
-| `region`            | Student's region of residence                                               |
-| `highest_education` | Highest qualification at registration                                       |
-| `age_band`          | Age group (`0-35`, `35-55`, `55<=`)                                         |
-| `disability`        | Whether the student has a disability (`Y`, `N`)                             |
-| `code_module`       | Course code                                                                 |
-| `code_presentation` | Academic term/session (e.g., `2013J`)                                       |
-| `num_of_attempts`   | Number of attempts for a module                                             |
-| `final_result`      | Result (`Pass`, `Fail`, `Withdrawn`, `Distinction`)                         |
-| `average_gpa`       | **Custom field**: Average GPA based on module performance                   |
+The dataset (`OULA.xlsx`) includes the following fields:
 
----
+| Field Name          | Description                                                               |
+| ------------------- | ------------------------------------------------------------------------- |
+| `id_student`        | Unique identifier for each student                                        |
+| `gender`            | Gender of the student (`Male`, `Female`)                                  |
+| `region`            | Student's region of residence                                             |
+| `highest_education` | Highest qualification held by the student at registration time            |
+| `age_band`          | Age group of the student (`0-35`, `35-55`, `55<=`)                        |
+| `disability`        | Whether the student has declared a disability (`Y` or `N`)                |
+| `code_module`       | Course code for the module the student is enrolled in                     |
+| `code_presentation` | The term/session in which the module was presented (e.g., `2013J`)        |
+| `num_of_attempts`   | Number of times the student has attempted the module                      |
+| `final_result`      | Final result in the module (`Pass`, `Fail`, `Withdrawn`, `Distinction`)   |
+| `average_gpa`       | **Custom field**: Calculated average GPA for each student based on grades |
 
 ## 🛠 Tools Used
 
-- **Excel** – for data preparation and GPA calculations
-- **Tableau** – for interactive dashboard creation and visual analytics
-
----
+* **Excel** – for data preparation and GPA calculations
+* **Tableau** – for creating the dashboard and visual analysis
 
 ## 🚀 Dashboard Link
 
-📊 [**Student Enrollment and Performance Dashboard (Tableau Public)**](https://public.tableau.com/app/profile/dustin.sherratt/viz/ExtendedCase2_17442367562910/AverageGPA#1)
-
----
+View the full dashboard on Tableau Public:
+🔗 [Student Enrollment and Performance Dashboard](https://public.tableau.com/app/profile/dustin.sherratt/viz/ExtendedCase2_17442367562910/AverageGPA#1)
 
 ## 🧭 How to Use the Dashboard
 
-- Use the **filters** (gender, age, region, course) on the right to explore data from different perspectives.
-- **Hover over visual elements** (bars, segments) for detailed tooltips.
-- **Click on charts or segments** to **dynamically filter** other visual components in the dashboard.
-- To reset, use the "Reset" or "Clear Selections" options if provided.
-
----
+* Use the **filters on the right** to explore GPA by gender, region, and course code.
+* Hover over charts to view **tooltips** with detailed metrics.
+* Click on bars or segments to **dynamically filter** other views.
+* Reset filters by clicking the **"Reset" or "Clear Selections"** button (if available).
 
 ## 🖥️ Run Locally in Tableau Desktop
 
-To open and interact with the dashboard locally:
+To explore or edit this dashboard locally:
 
 1. Clone or download this repository.
-2. Open either of the following Tableau workbooks:
-   - `workbook/student_dashboard.twb`
-   - `workbook/student_dashboard.twbx` *(self-contained version)*
-3. If using `.twb`, ensure the data source is correctly linked:
-   - Path: `data/student_avg_gpa.xlsx`
-   - Keep folder structure consistent to avoid broken links.
 
-> ✅ `.twbx` file includes the data bundled — no need to reconnect.
+2. Open the Tableau workbook file:
+
+   `/workbook/Student Enrollment and Performance Dashboard.twb`
+
+   (or use)
+
+   `/workbook/Student Enrollment and Performance Dashboard.twbx`
+
+3. When prompted, connect to the data source:
+
+   `/data/OULA.xlsx`
+
+   Ensure the Excel file is in the same path relative to the workbook for a smooth connection.
+
+4. If you're using the `.twbx` version, the data is already bundled, and no connection setup is needed.
+
+> 📌 Note: This project requires **Tableau Desktop** (Public or Professional Edition).
+
+## 📎 Folder Structure (Recommended)
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/data/OULA.xlsx`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/workbook/Student Enrollment and Performance Dashboard.twb`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/workbook/Student Enrollment and Performance Dashboard.twbx`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/assets/Logo.png`
+
+`/Student-Enrollment-and-Performance-Dashboard-using-Tableau/README.md`
+
+## 📬 Contact
+
+For feedback or collaboration:
+
+* **Dustin Sherratt**
+* 📧 [dustinsherratt143@gmail.com](mailto:dustinsherratt143@gmail.com)
+* 🔗 [LinkedIn](https://www.linkedin.com/in/dustinsherratt/) | [GitHub](https://github.com/dustinsherratt)
 
 ---
 
-## 🗂️ Folder Structure
-
-```bash
-/student-performance-dashboard
-│
-├── data/
-│   └── student_avg_gpa.xlsx
-│
-├── workbook/
-│   └── student_dashboard.twb
-│   └── student_dashboard.twbx
-│
-├──
+*This project is part of my data analytics portfolio and demonstrates the use of Tableau for educational data insights.*
