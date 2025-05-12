@@ -17,6 +17,24 @@ It allows users to interact with filters and visualizations to identify at-risk 
 - **Format**: Excel (`.xlsx`)
 - **Modifications**: Cleaned and transformed in Excel to calculate **average GPA per student**, which is not originally present in OULAD.
 
+## 🧾 Dataset Fields
+
+The dataset (`student_avg_gpa.xlsx`) includes the following fields:
+
+| Field Name          | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| `id_student`        | Unique identifier for each student                                          |
+| `gender`            | Gender of the student (`Male`, `Female`)                                   |
+| `region`            | Student's region of residence                                               |
+| `highest_education` | Highest qualification held by the student at registration time             |
+| `age_band`          | Age group of the student (`0-35`, `35-55`, `55<=`)                          |
+| `disability`        | Whether the student has declared a disability (`Y` or `N`)                  |
+| `code_module`       | Course code for the module the student is enrolled in                      |
+| `code_presentation` | The term/session in which the module was presented (e.g., `2013J`)          |
+| `num_of_attempts`   | Number of times the student has attempted the module                        |
+| `final_result`      | Final result in the module (`Pass`, `Fail`, `Withdrawn`, `Distinction`)     |
+| `average_gpa`       | **Custom field**: Calculated average GPA for each student based on grades   |
+
 ## 🛠 Tools Used
 
 - **Excel** – for data preparation and GPA calculations
@@ -34,12 +52,9 @@ View the full dashboard on Tableau Public:
 - Click on bars or segments to **dynamically filter** other views.
 - Reset filters by clicking the **"Reset" or "Clear Selections"** button (if available).
 
-## 📌 Key Insights
+## 🖥️ Run Locally in Tableau Desktop
 
-> *(You can add these later as you refine your analysis. For now, this section is a placeholder.)*
+To explore or edit this dashboard locally:
 
-- Which demographics show higher or lower average GPA?
-- Are there any enrollment trends that correlate with academic performance?
-
-## 📎 Folder Structure (Recommended)
-
+1. Clone or download this repository.
+2. Open the Tableau workbook file:
