@@ -19,7 +19,7 @@ It allows users to interact with filters and visualizations to identify at-risk 
 
 ## 🧾 Dataset Fields
 
-The dataset (`student_avg_gpa.xlsx`) includes the following fields:
+The dataset (`OULA.xlsx`) includes the following fields:
 
 | Field Name          | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
